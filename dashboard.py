@@ -49,9 +49,12 @@ st.plotly_chart(fig)
 fig = px.pie(df, 
              names='Payment_Method', 
              title='Most Opted Payment Method', 
-             color_discrete_sequence=px.colors.qualitative.Set1,
+             color_discrete_sequence=px.colors.qualitative.Set3,
              hole=0.4)
 st.plotly_chart(fig)
+
+
+
 
 
 
